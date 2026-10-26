@@ -47,3 +47,7 @@ prevBtn.addEventListener('click', () => {
 
     slider();
 });
+
+function handleClick() {
+            alert("Proceed to checkout");
+        }
