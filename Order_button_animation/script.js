@@ -11,6 +11,7 @@ document.querySelectorAll('.truck-button').forEach(button => {
             if(!button.classList.contains('animation')) {
 
                 button.classList.add('animation');
+                let confirmResult = window.confirm("Are you sure you want to place the order?");
 
                 gsap.to(button, {
                     '--box-s': 1,
