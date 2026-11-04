@@ -82,6 +82,7 @@ document.querySelectorAll('.truck-button').forEach(button => {
             gsap.set(truck, {
                 x: 4
             });
+            window.confirm("Your order has been placed successfully!");
             gsap.set(button, {
                 '--progress': 0,
                 '--hx': 0,
